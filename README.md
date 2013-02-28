@@ -1,4 +1,9 @@
 add-pgdg-apt-repo
 =================
 
-Simpel shell script to add the pgdg apt.postgresql.org APT repository to a host
+Simple shell script to add the pgdg apt.postgresql.org APT repository to a
+debian/Ubuntu host.
+
+It will also remove Martin Pitt's PPA if the sources.list.d file exists.
+
+Usage: ./add-pgdg-apt-repo.sh
